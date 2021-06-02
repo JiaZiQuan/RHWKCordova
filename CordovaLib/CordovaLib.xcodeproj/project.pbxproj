@@ -74,7 +74,7 @@
 		6A2ED646266669FA00F4D5C0 /* CDVIntentAndNavigationFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3093E2221B16D6A3003F381A /* CDVIntentAndNavigationFilter.m */; };
 		6A2ED647266669FA00F4D5C0 /* CDVHandleOpenURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ED95CF91AB9028C008C4574 /* CDVHandleOpenURL.m */; };
 		6A2ED6D8266731F000F4D5C0 /* CDVWebViewProcessPoolFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E23F8F923E16E96006CD852 /* CDVWebViewProcessPoolFactory.h */; };
-		6A2ED6DB2667335F00F4D5C0 /* Cordova.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A2ED6D22667317600F4D5C0 /* Cordova.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A2ED6E4266749DA00F4D5C0 /* Cordova.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A2ED6D22667317600F4D5C0 /* Cordova.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7E7F69B91ABA3692007546F4 /* CDVHandleOpenURL.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ED95CF81AB9028C008C4574 /* CDVHandleOpenURL.h */; };
 		7ED95D021AB9028C008C4574 /* CDVDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ED95CF21AB9028C008C4574 /* CDVDebug.h */; };
 		7ED95D031AB9028C008C4574 /* CDVJSON_private.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ED95CF31AB9028C008C4574 /* CDVJSON_private.h */; };
@@ -359,8 +359,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A2ED6DB2667335F00F4D5C0 /* Cordova.h in Headers */,
 				6A2ED61B266667AA00F4D5C0 /* CDVAppDelegate.h in Headers */,
+				6A2ED6E4266749DA00F4D5C0 /* Cordova.h in Headers */,
 				6A2ED5E22666668000F4D5C0 /* CDV.h in Headers */,
 				6A2ED5F1266666A100F4D5C0 /* CDVCommandQueue.h in Headers */,
 				6A2ED5F7266666A500F4D5C0 /* CDVInvokedUrlCommand.h in Headers */,
@@ -752,7 +752,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = Cordova/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -779,7 +779,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = Cordova/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
