@@ -76,7 +76,6 @@ static NSString * SSO_URL = @"/ruaho_sso_listener.html";
     if (settings == nil) {
         return configuration;
     }
-    configuration.preferences.javaScriptEnabled = YES;
     configuration.preferences.javaScriptCanOpenWindowsAutomatically = YES;
     configuration.suppressesIncrementalRendering = YES; // 是否支持记忆读取
     [configuration.preferences setValue:@YES forKey:@"allowFileAccessFromFileURLs"];
