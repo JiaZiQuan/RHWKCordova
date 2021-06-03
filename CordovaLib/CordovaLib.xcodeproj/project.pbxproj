@@ -79,8 +79,6 @@
 		4E714D3223F535B500A321AF /* CDVLaunchScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVLaunchScreen.h; sourceTree = "<group>"; };
 		4E714D3423F535B500A321AF /* CDVLaunchScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDVLaunchScreen.m; sourceTree = "<group>"; };
 		68A32D7114102E1C006B237C /* libCordova.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCordova.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		6A2ED5A7266642B400F4D5C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6A2ED6D22667317600F4D5C0 /* Cordova.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cordova.h; sourceTree = "<group>"; };
 		7ED95CF21AB9028C008C4574 /* CDVDebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVDebug.h; sourceTree = "<group>"; };
 		7ED95CF31AB9028C008C4574 /* CDVJSON_private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVJSON_private.h; sourceTree = "<group>"; };
 		7ED95CF41AB9028C008C4574 /* CDVJSON_private.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDVJSON_private.m; sourceTree = "<group>"; };
@@ -148,7 +146,6 @@
 			children = (
 				7ED95D0E1AB9029B008C4574 /* Public */,
 				7ED95CF11AB9028C008C4574 /* Private */,
-				6A2ED5A5266642B400F4D5C0 /* Cordova */,
 				034768DFFF38A50411DB9C8B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -189,15 +186,6 @@
 				4E714D3423F535B500A321AF /* CDVLaunchScreen.m */,
 			);
 			path = CDVLaunchScreen;
-			sourceTree = "<group>";
-		};
-		6A2ED5A5266642B400F4D5C0 /* Cordova */ = {
-			isa = PBXGroup;
-			children = (
-				6A2ED6D22667317600F4D5C0 /* Cordova.h */,
-				6A2ED5A7266642B400F4D5C0 /* Info.plist */,
-			);
-			path = Cordova;
 			sourceTree = "<group>";
 		};
 		7ED95CF11AB9028C008C4574 /* Private */ = {
