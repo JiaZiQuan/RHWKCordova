@@ -24,7 +24,7 @@ Pod::Spec.new do |spec|
   spec.source       =  { :git => "https://github.com/JiaZiQuan/RHWKCordova.git", :tag => "0.0.1"}
   spec.requires_arc = true   
   spec.preserve_paths = 'CordovaLib/cordova.js', 'CordovaLib/VERSION'       
-  spec.frameworks = 'AssetsLibrary', 'MobileCoreServices', 'AVFoundation', 'CoreLocation'
+  spec.frameworks = 'Photos', 'CoreServices', 'AVFoundation', 'CoreLocation'
   spec.default_subspec  = 'RHWKCordova'
   spec.subspec 'RHWKCordova' do |cordova|
       cordova.source_files = 'CordovaLib/Classes/**/*.{h,m}', 'CordovaLib/Cordova/Cordova.h'
